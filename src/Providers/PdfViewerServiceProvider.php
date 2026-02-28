@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Packages\MoonShinePdfViewer\Providers;
+namespace DissNik\MoonShinePdfViewer\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

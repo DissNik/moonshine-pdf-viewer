@@ -10,7 +10,7 @@ Simple PDF viewer component for MoonShine. PDF rendering is powered by `pdfjs-di
 ## Installation
 
 ```bash
-composer require local/moonshine-pdf-viewer
+composer require dissnik/moonshine-pdf-viewer
 ```
 
 Publish package assets:
@@ -24,7 +24,7 @@ php artisan vendor:publish --tag=moonshine-pdf-viewer-assets --force
 Use the component in MoonShine pages/components:
 
 ```php
-use Packages\MoonShinePdfViewer\Components\PdfViewer;
+use DissNik\MoonShinePdfViewer\Components\PdfViewer;
 
 PdfViewer::make(
     url: 'https://example.com/file.pdf'

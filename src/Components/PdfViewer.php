@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Packages\MoonShinePdfViewer\Components;
+namespace DissNik\MoonShinePdfViewer\Components;
 
 use MoonShine\AssetManager\Css;
 use MoonShine\AssetManager\Js;
