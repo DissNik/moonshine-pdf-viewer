@@ -8,9 +8,6 @@
             data-text-unknown-error="{{ __('moonshine-pdf-viewer::pdf-viewer.unknown_error') }}"
         >
             <div class="space-y-4 py-6">
-                <div class="text-center">
-                    <div class="spinner spinner-lg spinner--primary"></div>
-                </div>
                 <div class="space-y-2">
                     <div class="skeleton skeleton-title"></div>
                     <div class="skeleton"></div>
